@@ -1,0 +1,60 @@
+body {
+	font-family: sans-serif;
+	padding: 10px 20px 20px;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	margin-bottom: 2.5em;
+}
+
+.space-between {
+	justify-content: space-between;
+}
+
+.center {
+	justify-content: center;
+}
+
+.vertical {
+	flex-direction: column;
+}
+
+.grey {
+	padding: 1em;
+	background: #eeeeee;
+}
+
+.dark-grey {
+	padding: 10px;
+	background: #c7c7c7;
+	display: flex;
+	align-items: center;
+}
+
+.blue {
+	padding: 10px;
+	background: #a6deff;
+	margin-left: 5px;
+}
+
+.logo-vertical {
+	margin-bottom: 10px;
+}
+
+.menu {
+	display: flex;
+}
+
+.menu a {
+	background: #f5ffbb;
+	padding: 10px;
+	margin: 0 5px;
+}
+
+@media (max-width: 640px) {
+	.menu {
+		display: none;
+	}
+}
